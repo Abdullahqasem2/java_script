@@ -17,7 +17,7 @@ const UserForm = (props) => {
         }else if(username.length >= 2 && username.length !==0){
             return true;
         }else{
-            return null;
+            return null;    
         }
     }
     const lastMessage = () => {

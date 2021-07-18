@@ -1,9 +1,7 @@
 import React from 'react';
 import UserForm from './components/ClassComponents';
 
-class Home extends React.Component {
-
-render() {
+const Home = (props) => {
 
 return (
 
@@ -11,6 +9,6 @@ return (
 
   )
 };
-}
+
 
 export default Home;
