@@ -8,7 +8,7 @@
 // import Peer from "simple-peer"
 // import io from "socket.io-client"
 import "./App.css"
-import Home from './component/Home'
+import Vedio from './component/Vedio'
 
 
 // const socket = io.connect('http://localhost:5000')
@@ -154,7 +154,7 @@ function App() {
 		// 		) : null}
 		// 	</div>
 		// </div>
-		<Home />
+		<Vedio />
 		// </>
 	)
 }
