@@ -7,7 +7,8 @@ const Api = props => {
 
     useEffect(() => {
         axios.get('https://pokeapi.co/api/v2/pokemon')
-            .then(response =>{ setpokemon(response.data)})
+            .then(response => {return response.data})
+            .then(response =>{ setpokemon(response.results)})
     }, []);
 
     return (
